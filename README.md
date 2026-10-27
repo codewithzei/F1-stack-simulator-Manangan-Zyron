@@ -1,10 +1,12 @@
 # Flask Stack Simulator startup template
 
-**Name:** MANANGAN, ZYRON T.
-**Section:** BSIT WMT IV - 2
+**Name:** MANANGAN, ZYRON T.  
+**Section:** BSIT WMT IV - 2  
 **Original Starter Repo:** https://github.com/Jackson-Soriano/f1-elec4-stack-simulator-starter.git
 
-This is the unfinished repository for a pre-demo reading activity. Read `Flask_PreDemo_Reading_Activity.pdf` first. 
+---
+
+This is the unfinished repository for a pre-demo reading activity. Read `Flask_PreDemo_Reading_Activity.pdf` first.
 
 ## Before the demonstration
 
@@ -17,15 +19,13 @@ This is the unfinished repository for a pre-demo reading activity. Read `Flask_P
 
 ## Files
 
-- app.py: Flask setup and route TODOs P1-P9.
-- stack_model.py: Stack method.
-- templates/index.html: standalone static simulator preview.
-- templates/contact.html: standalone placeholder page.
-- templates/base.html: standalone layout reference; inheritance is not active yet.
-- static/css/style.css: supplied appearance adapted for this preview.
-- static/js/ui.js: optional focus enhancement and a later effect TODO.
-- requirements.txt: Flask dependency only.
+- `app.py`: Flask setup and route TODOs P1-P9.
+- `stack_model.py`: Stack method.
+- `templates/index.html`: standalone static simulator preview.
+- `templates/contact.html`: standalone placeholder page.
+- `templates/base.html`: standalone layout reference; inheritance is not active yet.
+- `static/css/style.css`: supplied appearance adapted for this preview.
+- `static/js/ui.js`: optional focus enhancement and a later effect TODO.
+- `requirements.txt`: Flask dependency only.
 
-During the demo, the instructor will convert static paths into url_for calls, connect form submission, introduce Jinja variables and loops, and connect Python stack operations. The three HTML files are intentionally independent before that conversion.
-
-
+During the demo, the instructor will convert static paths into `url_for` calls, connect form submission, introduce Jinja variables and loops, and connect Python stack operations. The three HTML files are intentionally independent before that conversion.
